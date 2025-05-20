@@ -21,9 +21,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/eiannone/keyboard"
 	"github.com/ncsurfus/session-manager-plugin/src/log"
 	"github.com/ncsurfus/session-manager-plugin/src/message"
-	"github.com/eiannone/keyboard"
 )
 
 // Byte array for key inputs

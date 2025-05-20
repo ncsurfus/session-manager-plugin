@@ -29,6 +29,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
+	"github.com/gorilla/websocket"
 	"github.com/ncsurfus/session-manager-plugin/src/communicator"
 	"github.com/ncsurfus/session-manager-plugin/src/config"
 	"github.com/ncsurfus/session-manager-plugin/src/encryption"
@@ -36,7 +37,6 @@ import (
 	"github.com/ncsurfus/session-manager-plugin/src/message"
 	"github.com/ncsurfus/session-manager-plugin/src/service"
 	"github.com/ncsurfus/session-manager-plugin/src/version"
-	"github.com/gorilla/websocket"
 	"github.com/twinj/uuid"
 )
 

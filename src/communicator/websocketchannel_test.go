@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ncsurfus/session-manager-plugin/src/log"
 	"github.com/gorilla/websocket"
+	"github.com/ncsurfus/session-manager-plugin/src/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

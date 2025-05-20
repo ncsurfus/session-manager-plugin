@@ -25,6 +25,7 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
+	"github.com/gorilla/websocket"
 	communicatorMocks "github.com/ncsurfus/session-manager-plugin/src/communicator/mocks"
 	"github.com/ncsurfus/session-manager-plugin/src/config"
 	"github.com/ncsurfus/session-manager-plugin/src/encryption"
@@ -32,7 +33,6 @@ import (
 	"github.com/ncsurfus/session-manager-plugin/src/log"
 	"github.com/ncsurfus/session-manager-plugin/src/message"
 	"github.com/ncsurfus/session-manager-plugin/src/version"
-	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/twinj/uuid"
