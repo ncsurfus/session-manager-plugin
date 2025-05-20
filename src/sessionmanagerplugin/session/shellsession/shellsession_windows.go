@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/session-manager-plugin/src/log"
-	"github.com/aws/session-manager-plugin/src/message"
+	"github.com/ncsurfus/session-manager-plugin/src/log"
+	"github.com/ncsurfus/session-manager-plugin/src/message"
 	"github.com/eiannone/keyboard"
 )
 
