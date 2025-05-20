@@ -1,7 +1,7 @@
 
 # Session Manager Plugin
 
-This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances. Session Manager is a capability of AWS Systems Manager.
+This library forks https://github.com/aws/session-manager-plugin to make it friendly for library usage, enabling to start and end sessions to managed instances. Session Manager is a capability of AWS Systems Manager.
 
 ## Overview
 
